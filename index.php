@@ -131,6 +131,6 @@
                 </div>
             </div>
         </div>
-        <img width = 100% style = "height: 85.5%;" class = "header-img" src = "header.jpg">
+        <img width = 100% style = "height: 100%;" class = "header-img" src = "header.jpg">
     </body>
 </html>
