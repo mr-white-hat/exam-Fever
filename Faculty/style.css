@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+}
+#web-container{
+    width: 100%;
+}
+.header{
+    width: 99%;
+    height: 100px;
+    position: fixed;
+    background-color: black;
+    margin-top: -8px;
+    box-shadow: 0 2px 20px 2px white;
+    border-radius: 0 0 15px 15px;
+}
+.logo{
+    width: 250px;
+    margin-left: 130px;
+    margin-top: 5px;
+}
+.header-menu{
+    margin: -50px 0 0 500px;
+    color: gold;
+}
+.header-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+.header-menu li{
+    float: left;
+    border-left: 2px solid white;
+    font-size: 30px;
+    padding: 0 25px;
+}
+.header-menu li a{
+    display: block;
+    direction: None;
+    text-align: center;
+    color: gold;
+}
+.header-img{
+    width: 99%;
+    margin-top: 100px;
+}
+.login-btn{
+    text-decoration: None;
+    float: right;
+    border-radius: 25px;
+    border: 10px;
+    border-color: black;
+    padding: 18px 25px;
+    background:gold;
+    color: black;
+    font-size: 30px;
+    margin: 30px 50px;
+    margin-top: 18px;
+    margin-right: 140px;
+    cursor: pointer;
+}
+form{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    scroll-margin-block: 0;
+    box-shadow: 0 15px 30px 0 white;
+}
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    border-radius: 18.3px;
+}
+.form_container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+.form_container input[type=text], .form_container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+.form_container input[type=text]:focus, .form_container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.em{
+    float: none;
+    position: fixed;
+    margin-top: -17px;
+}
+.form_container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+.form_container .cancel {
+    background-color: red;
+}
+.form_container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+#student, #student0{
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+#faculty, #faculty0{
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.lin{
+    float: left;
+    padding-left: 20px;
+    margin-top: 17px;
+    padding-bottom: 20px;
+}

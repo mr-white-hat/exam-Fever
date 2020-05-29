@@ -1,0 +1,144 @@
+body{
+    background-color: black;
+}
+#BLUR {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.8);
+    opacity: 1;
+    z-index: 3;
+}
+a{
+    text-decoration: none;
+}
+#web-container{
+    width: 100%;
+}
+.header{
+    width: 99%;
+    height: 100px;
+    position: fixed;
+    background-color: black;
+    margin-top: -8px;
+    box-shadow: 0 2px 20px 2px white;
+    border-radius: 0 0 15px 15px;
+    z-index: 2;
+}
+.M .material-icons{
+    position: fixed;
+    top: 20px;
+    left: 50px;
+    color: gold;
+    font-size: 62px!important;
+    cursor: pointer;
+}
+.logo{
+    width: 250px;
+    margin-left: 130px;
+    margin-top: 5px;
+}
+#header-img {
+    width: 99%;
+    margin-top: 100px;
+}
+.logout-btn{
+    float: right;
+    border-radius: 25px;
+    border: 10px;
+    border-color: black;
+    padding: 18px 25px;
+    background:gold;
+    color: black;
+    font-size: 30px;
+    margin: 30px 50px;
+    margin-top: 18px;
+    margin-right: 140px;
+    cursor: pointer;
+}
+.navbar {
+    display: none;
+    height: 100%;
+    width: 320px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: gold;
+    padding: 20px 0px;
+    text-align: left;
+    font-size: x-large;
+    border: 2px solid white;
+    box-shadow: 0 15px 30px 0 white;
+    overflow: auto;
+    z-index: 4;
+}
+.C .material-icons{
+    position: fixed;
+    top: 3px;
+    left: 330px;
+    color: gold;
+    font-size: 53px!important;
+    cursor: pointer;
+    background-color: transparent;
+}
+#subs {
+    display: none;
+    background-color: black;
+    border-radius: 15px;
+}
+.drp:hover #subs {
+    display: block;
+}
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+    color: black;
+    padding-inline-start: 0;
+    font-weight: bold;
+}
+.N {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 3px 2px grey;
+    position: fixed;
+    top: 2px;
+    left: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.blk {
+    background-color: black;
+    height: 70px;
+    width: 319px;
+    margin-top: -19.5px;
+    margin-left: 0.5px;;
+}
+.navbar li a {
+    display: block;
+    padding: 8px 16px;
+}
+.navbar li:hover {
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.navbar li {
+    padding: 0 71px;
+    border-bottom: 2px solid rgb(104, 104, 104);
+    text-align: center;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+.Nam {
+    float: right;
+    color: white;
+    margin-top: 40px;
+}
+.ico {
+    position: relative;
+    top: 5px;
+    right: 2px;
+}
